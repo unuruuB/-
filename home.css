@@ -1,3 +1,93 @@
 .body{
     background-color: lightblue;
 }
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    /* background-color: aliceblue; */
+}
+
+.flex-container {
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.box {
+    height: 100px;
+    padding: 10px;
+    background-color: aqua;
+    border: 1px solid #000;
+}
+
+.row-header {
+    display: flex;
+    height: 84px;
+    align-items: center;
+}
+
+.col-menu {
+    flex: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    width: 49px;
+    height: 24px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    justify-content: flex-end;
+    margin-right: 47px;
+}
+
+.header-logo {
+    width: 122px;
+    display: block;
+}
+.header-logo-img {
+    width: 100%;
+}
+
+.header-menu {
+    display: flex;
+    gap: 32px;
+}
+.header-menu-item {
+    font-size: 16px;
+    font-weight: 600;
+    color: #394149;
+    text-decoration: none;
+}
+
+.primary-button {
+    background-color: rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
+    font-size: 16px;
+    line-height: 24px;
+
+  }
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+    border: 0;
+    color: rgba(245, 138, 7, 1);
+    padding: 19px 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.primary-button:hover {
+    background-color: rgba(245, 138, 7, 0.3);
+}
+
+.hero-section {
+    background-color: rgba(220, 234, 245, 1);
+}
